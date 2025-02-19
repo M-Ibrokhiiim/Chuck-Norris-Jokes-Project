@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
     <title>Chuck-Norris</title>
 </head>
 <body>
-    
+    <div class="main-parent-container">
+        <section class="title-section">
+            <h1>Chuck Norris API</h1>
+        </section>
+
+        <section class="joke-section">
+            <p id="joke-section-p">Press 'Load Another' for Joke...</p>
+        </section>
+
+        <section class="chuck-norris-pic">
+            <img src="./2.jpg" alt="chuck-norris-pic">
+        </section>
+
+        <section class="load-btn" onclick="callingToApi()">
+            <button>Load Another</button>
+        </section>
+
+    </div>
+
+    <script src="./main.js"></script>
 </body>
 </html>
